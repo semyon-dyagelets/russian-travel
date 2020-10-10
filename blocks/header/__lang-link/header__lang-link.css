@@ -1,4 +1,6 @@
 .header__lang-link {
+  display: block;
+  text-decoration: none;
   min-width: 29px;
   min-height: 28px;
   margin-left: 18px;
@@ -10,12 +12,14 @@
   text-align: right;
 }
 
+.header__lang-link:hover {
+  opacity: .8;
+}
+
 @media screen and (max-width: 767px) {
   .header__lang-link {
-  max-width: 22px;
-  max-height: 20px;
-  font-style: normal;
-  font-size: 18px;
-  line-height: 20px;
+    max-width: 22px;
+    font-size: 18px;
+    line-height: 20px;
   } 
- }
+}
